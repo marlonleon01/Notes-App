@@ -1,9 +1,9 @@
 import { useState } from "react"
-import Sidebar from "./components/Sidebar"
+import Sidebar from "./Components/Sidebar"
 import Editor from "./Components/Editor.js"
 import { data } from "./data"
 import Split from "react-split"
-import {nanoid} from "nanoid"
+import { nanoid } from "nanoid"
 
 export default function App() {
     const [notes, setNotes] = useState([])
