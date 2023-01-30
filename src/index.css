@@ -130,7 +130,7 @@ button:focus {
 }
 
 .delete-btn {
-  display: block;
+  display: none;
   background: none;
   border: none;
 }
